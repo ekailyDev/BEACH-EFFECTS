@@ -36602,7 +36602,6 @@ var EffectCanvas = /*#__PURE__*/function () {
       this.camera = new THREE.PerspectiveCamera(fov, this.viewport.aspectRatio, 1, 1000);
       this.camera.position.set(0, 0, perspective); // set the camera position on the z axis.
       // renderer
-      // this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 
       this.renderer = new THREE.WebGL1Renderer({
         antialias: true,

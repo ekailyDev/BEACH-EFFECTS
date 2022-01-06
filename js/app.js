@@ -63,7 +63,6 @@ class EffectCanvas{
         this.camera.position.set(0, 0, perspective); // set the camera position on the z axis.
         
         // renderer
-        // this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
         this.renderer = new THREE.WebGL1Renderer({ antialias: true, alpha: true });
         this.renderer.setSize(this.viewport.width, this.viewport.height); // uses the getter viewport function above to set size of canvas / renderer
         this.renderer.setPixelRatio(window.devicePixelRatio); // Import to ensure image textures do not appear blurred.
